@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+    position: relative;
+    left: 580px;
+    border-radius: 20px;
+    top: 50px;
+    background-color: antiquewhite;
+    width: 400px;
+  }
+  
+  h2{
+     font-size: 7vh;
+     color: black;
+  }
+  
+  .input {
+    display: block;
+    padding: 2vh 15vh 2vh 0vh;
+    margin: 2vh 2vh 3vh 85vh;
+    position: relative;
+    right: 610px;
+    box-sizing: border-box;
+    border-radius: 2vh;
+  }
+  form {
+    padding: 20px;
+  }
+  
+  .submit-button {
+    border: 2px;
+    font-size: 20px;
+    background-color: rgb(162, 240, 6);
+    color: black;
+    padding: 0.5vh 2vh;
+    border-radius: 2vh;
+    border: 0.25vh solid black;
+  }
+  
+  .submit-button:hover {
+    cursor: pointer;
+    background-color: blue;
+  }

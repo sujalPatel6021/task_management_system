@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+.container-box{
+    width: 600px;
+    height: 600px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 20px;
+}
+.card-header {
+    position: relative;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: blue;
+    height: 50px;
+    margin: 2px;
+    border-radius: 20px;
+}
+.card-header p1{
+    position: relative;
+    left: 185px;
+    font-weight: 600;
+    top: 2px;
+    font-size: 30px;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+.container-body-data{
+    display: flex;
+}
+.container-body-data-innerdata{
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 75px;
+}
+
+.container-body-data-innerdata label{
+    font-size: 19px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.container-body-data-innerdata input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.container-body-data-innerdata input:hover{
+    background-color: antiquewhite;
+}
+.container-body-data-innerdata select{
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    height: 32px;
+    background-color: lightgoldenrodyellow;
+}
+
+.container-body-data-innerdata textarea{
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 60px;
+}
+
+.container-body-data-innerdata textarea:hover{
+    background-color: antiquewhite;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+
+.footer button {
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    background-color: lightblue;
+}
+
+.footer button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(83, 227, 83);
+}
