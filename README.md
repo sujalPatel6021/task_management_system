@@ -57,7 +57,7 @@
     <li><strong>Clone the repository:</strong></li>
   </ol>
 </p>
- <div style=" position: relative;
+<div style=" position: relative;
             background-color: #f5f5f5;
             padding: 10px;
             border: 1px solid #ddd;
@@ -68,4 +68,22 @@
 git clone https://github.com/sujalPatel6021/task_management_system.git
 cd task_management_system
         </pre>
-  </div>
+</div>
+<p style="font-size: 16px;">
+  <ol start="2">
+    <li><strong>Install dependencies:</strong></li>
+  </ol>
+</p>
+<div style=" position: relative;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: Consolas, 'Courier New', monospace;
+            font-size: 14px;">
+        <pre>
+npm install
+&nbsp;&nbsp;&nbsp;# or
+yarn install
+        </pre>
+</div>
