@@ -4,7 +4,7 @@
 <strong>Note:</strong> This project contains only the frontend part and does not include any backend.</p>
 <br>
 <br>
-<h2>Features/</h2>
+<h2>Features</h2>
 <ul style="font-size: 16px;">
   <li><strong>Admin Panel</strong>
     <ul>
@@ -23,12 +23,14 @@
       <li><strong>My Projects</strong>: View and manage projects assigned to the project admin.</li>
       <li><strong>Register Employee</strong>: Project admins can register new employees for their projects.</li>
       <li><strong>All Employees</strong>: View a list of all employees (only available to project admins).</li>
+      <li><strong>Logout</strong>: Securely log out of the project admin panel.</li>
     </ul>
   </li>
   <li><strong>Developer Panel</strong>
     <ul>
       <li><strong>My Projects</strong>: View and manage projects assigned to the developer.</li>
       <li><strong>Change Password</strong>: Developers can change password for their account.</li>
+      <li><strong>Logout</strong>: Securely log out of the developer panel.</li>
     </ul>
   </li>
   <li><strong>Authentication</strong>
@@ -62,9 +64,8 @@
             border-radius: 5px;
             font-family: Consolas, 'Courier New', monospace;
             font-size: 14px;">
-        <pre id="code-example">
+        <pre>
 git clone https://github.com/sujalPatel6021/task_management_system.git
 cd task_management_system
         </pre>
-        <button class="copy-button" onclick="copyToClipboard()">Copy</button>
   </div>
