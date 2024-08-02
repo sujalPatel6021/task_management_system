@@ -130,3 +130,4 @@ yarn start
 <br>
 <h2>Contact</h2>
 <p style="font-size: 16px;">For any questions or suggestions, please open an issue or contact [sujalpatel6021@gmail.com].</p>
+thanks
