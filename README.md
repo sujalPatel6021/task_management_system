@@ -125,7 +125,7 @@ yarn start
 <br>
 <br>
 <h2>Acknowledgments</h2>
-<p style="font-size: 16px;">This project was inspired by various text manipulation tools and community suggestions. Thanks to all contributors and users for their support and feedback.</p>
+<p style="font-size: 16px;">This project was inspired by various online tools and community suggestions. Thanks to all contributors and users for their support and feedback.</p>
 <br>
 <br>
 <h2>Contact</h2>
